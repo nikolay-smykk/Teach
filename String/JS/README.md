@@ -1,129 +1,129 @@
 # String
 
-# Stringprototype.charAt()
+# String.prototype.charAt()
 
 Возвращает символ по указанному индексу.
 
-# Stringprototype.charCodeAt()
+# String.prototype.charCodeAt()
 
 Возвращает число, представляющее значение символа в Юникоде по указанному индексу.
 
-# Stringprototype.codePointAt()
+# String.prototype.codePointAt()
 
 Возвращает неотрицательное целое число, представляющее закодированную в UTF-16 кодовую точку значения по указанной позиции.
 
-# Stringprototype.concat()
+# String.prototype.concat()
 
 Объединяет текст двух строк и возвращает новую строку.
 
-# Stringprototype.includes()
+# String.prototype.includes()
 
 Определяет, находится ли строка внутри другой строки.
 
-# Stringprototype.endsWith()
+# String.prototype.endsWith()
 
 Определяет, заканчивается ли строка символами другой строки.
 
-# Stringprototype.indexOf()
+# String.prototype.indexOf()
 
 Возвращает индекс первого вхождения указанного значения в объекте String, на котором был вызван этот метод, или -1, если вхождений нет.
 
-# Stringprototype.lastIndexOf()
+# String.prototype.lastIndexOf()
 
 Возвращает индекс последнего вхождения указанного значения в объекте String, на котором был вызван этот метод, или -1, если вхождений нет.
 
-# Stringprototype.localeCompare()
+# String.prototype.localeCompare()
 
 Возвращает число, указывающее, находится ли образцовая строка до, после или на том же самом месте, что и указанная строка в порядке сортировки.
 
-# Stringprototype.match()
+# String.prototype.match()
 
 Используется для сопоставления строке регулярного выражения.
 
-# Stringprototype.matchAll()
+# String.prototype.matchAll()
 
 Возвращает итератор по всем результатам при сопоставлении строки с регулярным выражением.
 
-# Stringprototype.normalize()
+# String.prototype.normalize()
 
 Возвращает форму нормализации Юникода для строкового значения.
 
-# Stringprototype.quote()
+# String.prototype.quote()
 
 Оборачивает строку в двойные кавычки (""").
 
-# Stringprototype.repeat()
+# String.prototype.repeat()
 
 Возвращает строку. состоящую из элементов объекта, повторённых указанное количество раз.
 
-# Stringprototype.replace()
+# String.prototype.replace()
 
 Используется для сопоставления строке регулярного выражения и для замены совпавшей подстроки на новую подстроку.
 
-# Stringprototype.search()
+# String.prototype.search()
 
 Выполняет поиск совпадения регулярного выражения со строкой.
 
-# Stringprototype.slice()
+# String.prototype.slice()
 
 Извлекает часть строки и возвращает новую строку.
 
-# Stringprototype.split()
+# String.prototype.split()
 
 Разбивает объект String на массив строк, разделёных указанной строкой на подстроки.
 
-# Stringprototype.startsWith()
+# String.prototype.startsWith()
 
 Определяет, начинается ли строка символами другой строки.
 
-# Stringprototype.substr()
+# String.prototype.substr()
 
 Возвращает указанное количество символов в строке, начинающихся с указанной позиции.
 
-# Stringprototype.substring()
+# String.prototype.substring()
 
 Возвращает символы в строке между двумя индексами.
 
-# Stringprototype.toLocaleLowerCase()
+# String.prototype.toLocaleLowerCase()
 
 Приводит символы в строке к нижнему регистру согласно текущей локали. Для большинства языков, метод делает то же самое, что и метод toLowerCase().
 
-# Stringprototype.toLocaleUpperCase()
+# String.prototype.toLocaleUpperCase()
 
 Приводит символы в строке к верхнему регистру согласно текущей локали. Для большинства языков, метод делает то же самое, что и метод toUpperCase().
 
-# Stringprototype.toLowerCase()
+# String.prototype.toLowerCase()
 
 Возвращает строковое значение с символами в нижнем регистре.
 
-# Stringprototype.toSource()
+# String.prototype.toSource()
 
 Возвращает литерал объекта, представляющий указанный объект; вы можете использовать это значениедля создания нового объекта. Переопределяет метод Object.prototype.toSource().
 
-# Stringprototype.toString()
+# String.prototype.toString()
 
 Возвращает строковое представление указаного объекта. Переопределяет метод Object.prototype.toString().
 
-# Stringprototype.toUpperCase()
+# String.prototype.toUpperCase()
 
 Возвращает строковое значение с символами в верхнем регистре.
 
-# Stringprototype.trim()
+# String.prototype.trim()
 
 Обрезает пробельные символы в начале и в конце строки. Часть стандарта ECMAScript 5.
 
-# Stringprototype.trimLeft()
+# String.prototype.trimLeft()
 
 Обрезает пробельные символы с левой стороны строки.
 
-# Stringprototype.trimRight()
+# String.prototype.trimRight()
 
 Обрезает пробельные символы с правой стороны строки.
 
-# Stringprototype.valueOf()
+# String.prototype.valueOf()
 
 Возвращает примитивное значение указанного объекта. Переопределяет метод Object.prototype.valueOf().
 
-# Stringprototype[@@iterator]()
+# String.prototype[@@iterator]()
 
 Возвращает новый объект итератора Iterator, который итерируется по кодовым точкам строки и возвращает каждую кодовую точку в виде строкового значения.
