@@ -1,8 +1,11 @@
 # String
 
-#String.prototype.charAt()
+# String.prototype.charAt()
+
 Возвращает символ по указанному индексу.
-#String.prototype.charCodeAt()
+
+# String.prototype.charCodeAt()
+
 Возвращает число, представляющее значение символа в Юникоде по указанному индексу.
 String.prototype.codePointAt()
 Возвращает неотрицательное целое число, представляющее закодированную в UTF-16 кодовую точку значения по указанной позиции.
